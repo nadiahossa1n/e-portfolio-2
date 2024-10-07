@@ -496,7 +496,7 @@ nav {
 .project__list {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 40px;
 }
 
 .project__wrapper {
