@@ -34,9 +34,10 @@ function contact(event) {
 }
 
 function toggleModal() {
-    isModalOpen = !isModalOpen;
-    if (isModalOpen) {
-        return document.body.classList.remove("modal--open");
-    }
-    document.body.classList += " modal--open";
+  isModalOpen = !isModalOpen;
+  if (isModalOpen) {
+      document.body.classList.add("modal--open");
+  } else {
+      document.body.classList.remove("modal--open");
+  }
 }
